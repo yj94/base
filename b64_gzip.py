@@ -15,7 +15,7 @@ original_size = len(original_base64)
 print(original_base64)
 print(f"原始图片数据的 base64 编码的字节大小为：{original_size} 字节\n")
 # 计算压缩后的 base64 编码的字节大小
-compressed_size = len(base64.b64decode(compressed_base64))
+compressed_size = len(compressed_base64)
 print(compressed_base64)
 print(f"压缩后的 base64 编码的字节大小为：{compressed_size} 字节\n")
 # 将压缩后的 base64 编码进行解压缩，并解码成原始图片数据

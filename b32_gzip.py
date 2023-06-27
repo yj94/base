@@ -17,7 +17,7 @@ print(original_base32)
 print(f"原始图片数据的 base32 编码的字节大小为：{original_size} 字节\n")
 
 # 计算压缩后的 base32 编码的字节大小
-compressed_size = len(base64.b32decode(compressed_base32))
+compressed_size = len(compressed_base32)
 print(compressed_base32)
 print(f"压缩后的 base32 编码的字节大小为：{compressed_size} 字节\n")
 
